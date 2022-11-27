@@ -1,0 +1,15 @@
+import streamlit as st
+가상환경 설치
+
+conda create -n 이름 python=3.7.4 ipython numpy matplotlib pandas scipy scikit-learn tensorflow keras
+
+활성화
+conda activate 이름
+
+필요 라이브러리 설치
+pip install streamlit
+pip install seaborn
+pip install pandas_datareader
+pip install streamlit_folium
+pip install imageio-ffmpeg
+
